@@ -1,0 +1,1 @@
+Collected tweets using postman and saved them in tweet1.json, tweet2.json, tweet3.json and tweet4.json. Then, run tw.py to filter out duplicate tweets by comparing string. All 1000 tweets are in ALLTweets.json under title "data"

@@ -1,0 +1,18 @@
+﻿,,
+Sumbol,Title,Meaning
+V,Varient/Mutation,Mainly talks about covid mutations or variants.
+I,Illness,Refers to the illnesses or deaths caused by covid or the vaccines
+T,Travel Restrictions,Refers to the international travel rsitrictions put in place due to covid or travel bans …
+M,Covid Measurments,"Talks about the Measurements (e.g. masking, lockdown, ...) put in place other than travel restrictions"
+N,Vaccination,"Refers to vaccines, booster shots, jabs, new vaccines designs, …"
+C,Covid Cases,About number of cases
+O,Other,All other stuff
+,,
+,,
+,,
+,,
+,,
+Symbol,Sentiment,
+P,Positive,
+N,Negative,
+L,Nutural,
