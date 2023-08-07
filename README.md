@@ -34,6 +34,8 @@ Using the JSON data received from Twitter’s API, a short Python script was cre
 
 Furthermore, each Tweet was categorized into three additional groups based on their sentiments: Positive (POS), Neutral (NEU) and Negative (NEG). We believed that seven topics and three sentiments best represented the data and that the most informative conclusions could be drawn. 
 
+![1](https://github.com/Sagarnandeshwar/Covid_Public_Concern/blob/main/images/1.png)
+
 ## Pre-processing 
 After annotation, we dedicated our efforts to preprocessing each Tweet’s text to make them best suitable for analysis using Python. The following preprocessing decisions were applied: 
 1. Lowercasing 
@@ -46,15 +48,23 @@ Lowercasing was done to remove double counting of the same word with different c
 ## TF-IDF 
 Following the light preprocessing procedure, within the same Python script, a procedure was written to compute the TF-IDF scores for each word per category. The specific formula for computing the TF-IDF scores per category. 
 
+![2](https://github.com/Sagarnandeshwar/Covid_Public_Concern/blob/main/images/2.png)
+
 The impact of our preprocessing decisions were noticeable. Compared with blindly running the TF-IDF script on the original unprocessed Tweets, the generated top 10 words for every category were much more relevant, rid of meaningless words, and contained no duplicate words. 
 
 ## Result
 
 The results from our analyses were such that it varied greatly per category and sentiment. 
 
+![3](https://github.com/Sagarnandeshwar/Covid_Public_Concern/blob/main/images/3.png)
+
 We, first, discovered that the trending topics online were similar to the ones being mentioned offline, with a heavy emphasis on the new Omicron variant and vaccination. The primary concerns for the Variant category appeared to be the worries and dangers of new variants in the virus, as well as Moderna, whose vaccine may require a third shot for effective protection. The primary concerns for the Illness category can be characterized by people’s worries on the lethal effects of COVID on our lungs as well as Iran and our medical infrastructure which have been taking a heavy toll from
 the virus recently. As for Travel, there was higher optimism for flight and future travel in 2022, as well as mentions about Mike Pompeo, the American politician responsible for decisions on America’s response to COVID. As for the Measurements against COVID category, we were able to notice a clear pattern about masks, shops, public transport, and herd immunity - characterizations which seem to have not changed greatly since the beginning of the pandemic. The Vaccine topic had the greatest engagement for a single category (except Others), which frequently mentioned the need for a third booster shot from Pfizer, Moderna, and Janssen to combat the most recent variant. There were also a surprisingly low number of Tweets in the COVID Cases category, which as expected, showed data science keywords such as “analytics”, “insights”, and “curve”. There was a fairly high amount of optimism for this category as analysts reported lower than previous numbers. Lastly, our findings for the Others category were ambiguous to draw any solid conclusions from. Although there were trending mentions about school term cancellations, and stock prices, the miscellaneous data and some spam Tweets made the data difficult to interpret.
 
 As for engagement in each topic category, we see that the most occurring topics were Others, Vaccination and Variant/Mutation. The high number of occurrences for the Others category can be explained by the fact that any other Tweet which did not fall under the six other categories were grouped into Others. There were also a surprisingly low number of Tweets about COVID cases and illnesses, which we speculated would be a dominant category.
 
-We can also draw the conclusion that the overall sentiment towards COVID on Twitter is overwhelmingly and surprisingly neutral, where it was speculated that it would be dominantly negative. There are nearly three times as many neutral Tweets compared to negative Tweets and more than six times the number of positive Tweets. This appears to be the case as there are a high number of official organizations and members of older demographics on Twitter. Further
+![4](https://github.com/Sagarnandeshwar/Covid_Public_Concern/blob/main/images/4.png)
+
+We can also draw the conclusion that the overall sentiment towards COVID on Twitter is overwhelmingly and surprisingly neutral, where it was speculated that it would be dominantly negative. There are nearly three times as many neutral Tweets compared to negative Tweets and more than six times the number of positive Tweets. This appears to be the case as there are a high number of official organizations and members of older demographics on Twitter.
+
+![5](https://github.com/Sagarnandeshwar/Covid_Public_Concern/blob/main/images/5.png)
